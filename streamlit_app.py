@@ -53,7 +53,7 @@ st.markdown("""
 # Configuration
 # ============================================================================
 
-API_BASE_URL = os.getenv("http://10.112.151.231:9000")
+API_BASE_URL = os.getenv("https://monogenetic-soledad-allegorically.ngrok-free.dev")
 
 # ============================================================================
 # Session State
