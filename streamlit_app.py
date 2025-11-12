@@ -14,7 +14,7 @@ load_dotenv()
 # ============================================================================
 
 st.set_page_config(
-    page_title="Joint Integration Design Smart Chat",
+    page_title="Joint Integration Design Smart Agent",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -53,7 +53,7 @@ st.markdown("""
 # Configuration
 # ============================================================================
 
-API_BASE_URL = os.getenv("ORCHESTRATOR_URL", "http://localhost:9000")
+API_BASE_URL = os.getenv("http://10.112.151.231:9000")
 
 # ============================================================================
 # Session State
@@ -228,8 +228,8 @@ with st.sidebar:
 # Main Header
 # ============================================================================
 
-st.title("Orchestrator Chat")
-st.markdown("*Connect to your LangGraph orchestrator agent*")
+st.title("Joint Integration Design Smart Agent")
+st.markdown("*Powered by AWS Bedrock Llama-instruct*")
 
 # ============================================================================
 # Messages Display
